@@ -17,7 +17,6 @@ export default function Navbar() {
   const [nav, setNav] = useState(true);
   const { height, width } = useWindowDimensions();
 
-  console.log(data.Destinations);
 
   return (
 
