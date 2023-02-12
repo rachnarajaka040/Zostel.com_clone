@@ -1,0 +1,196 @@
+.parent
+{
+    display: flex;
+    justify-content: center;
+}
+.picbox{
+    display: grid;
+    width: 1200px;
+    height: 600px;
+    grid-template-areas: "img img img img imge imge"
+                          "img img img img imga imga"
+                          "img img img img image image";
+     grid-gap: 4px;
+    margin: 20px 2px;
+}
+.picboximg1{
+    grid-area: img;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius:10px ;
+}
+.picboximg2{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: imge;
+    border-top-right-radius: 10px;
+
+}
+.picboximg3{
+    grid-area: imga;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.picboximg4{
+    grid-area: image;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom-right-radius: 10px;
+}
+.picboximg1:hover,.picboximg2:hover,.picboximg3:hover,.picboximg4:hover
+{
+    opacity: 0.7;
+    cursor:zoom-in;
+}
+.showpic
+{
+     position: absolute;
+     bottom: 60px;
+    padding: 18px 30px;
+    font-weight: 600;
+    border-radius: 12px;
+    border: none;
+
+}
+.showpic:hover
+{
+    cursor:pointer;
+    font-size: medium;
+    background-color: aliceblue;
+    
+    
+}
+/* gallery  */
+.viewpics
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    visibility: visible;
+    background-color: black;
+    top:0;
+}
+.hidepics{
+    visibility: hidden;
+    position: fixed;
+}
+.picnav
+{
+    display: flex;
+    width: 70%;
+    justify-content: space-evenly;
+}
+.gallerynav
+{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.cphoto
+{
+    width: 80%;
+    height: 85%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.fwdbwd
+{
+    padding: 50px 20px;
+    font-size: larger;
+    font-weight: bolder;
+    color: burlywood;
+    background-color: rgba(128, 128, 128, 0.253);
+}
+.fwdbwd:hover
+{
+    background-color: rgba(128, 128, 128, 0.714);
+}
+.galtop{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin: 10px 0px -20px;
+
+}
+.pageno
+{
+    color: white;
+    font-size: small;
+}
+.xgalbut
+{
+    background-color: black;
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+    padding:2px 8px;
+}
+.xgalbut:hover
+{
+    background-color:red
+
+}
+/* About Hotel */
+.abouthotel
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 11%;
+    min-width: 300px;
+    min-height: 700px;
+    /* background-color: aqua; */
+}
+.maxdescription
+{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align:justify;
+}
+.mindescription
+{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align:justify;
+    height:300px;
+    overflow: hidden;
+}
+.hotelname
+{
+    color:#f15824;
+    /* font-size: larger; */
+    font-weight: bolder;
+}
+.hoteldesc
+{
+    font-size: larger;
+    padding: 10px ;
+}
+.moreinfobut{
+    color:#f15824;
+    position:absolute;
+    font-size: large;
+    font-weight: 600;
+    left: 15%;
+    padding: 10px;
+    border: none;
+}
