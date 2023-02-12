@@ -7,9 +7,9 @@
     display: grid;
     width: 1200px;
     height: 600px;
-    grid-template-areas: "img img img img imge imge"
-                          "img img img img imga imga"
-                          "img img img img image image";
+    grid-template-areas: "img img img img img  imge"
+                          "img img img img img  imga"
+                          "img img img img img  image";
      grid-gap: 4px;
     margin: 20px 2px;
 }
@@ -50,8 +50,9 @@
 }
 .showpic
 {
-     position: absolute;
-     bottom: 60px;
+     position: relative;
+     top: 70%;
+     left: 20%;
     padding: 18px 30px;
     font-weight: 600;
     border-radius: 12px;
@@ -182,7 +183,8 @@
 }
 .hoteldesc
 {
-    font-size: larger;
+    font-size: medium;
+    line-height: 1.8;
     padding: 10px ;
 }
 .moreinfobut{
@@ -193,4 +195,9 @@
     left: 15%;
     padding: 10px;
     border: none;
+}
+.recexp
+{
+    color: rgb(70, 69, 69);
+    padding: 10px 4px 5px;
 }
