@@ -1,6 +1,18 @@
-import daata from '../../demo.json'
+import data from '../../demo.json'
+import { useState } from 'react'
 function Hotels({name,hotels})
 {
+    let[hover,Sethover]=useState(false);
+
+    function hoveron()
+    {
+        Sethover(true);
+    }
+    function hoveroff()
+    {
+        Sethover(false)
+    }
+
     // Styles
     const stayStyles={         
         "display":"flex",
@@ -38,7 +50,8 @@ function Hotels({name,hotels})
         
     }
     const nStyle={
-        "color": "#f15824",
+        //...
+        color: "#f15824",
     }
     const zostel={
         "color": "#96a4a9",
@@ -51,6 +64,21 @@ function Hotels({name,hotels})
         "margin":"20px 0"
     }
     const price={
+        "display":"flex",
+        "width":"100%",
+        "justifyContent":"space-between"
+        
+    }
+    const viewStyle={
+        "backgroundColor": hover ? "white" : "#f15824",
+        "color": hover ? "#f15824":"white",
+        "width":"90px",
+        "height":"40px",
+        "border":"none",
+        "borderRadius":"6px",
+        "fontSize":"medium",
+        "fontWeight":"700"
+        
 
     }
 
@@ -60,21 +88,21 @@ function Hotels({name,hotels})
         <div>
 
             <h1 style={{"marginTop":"40px"}}>Stays at <span style={nStyle}>{name}</span></h1>
-            {daata.Hotels.map(e=>{
+            {data.Hotels.map(e=>{
 
                 if(hotels.includes(e.id))
                 {
                     return <>
                     <div style={stayStyles} >
                         <div style={{...stayBkg,"backgroundImage":`url(${e.img[0]})`}} >
-                        {console.log(e.min)}
+                   
 
                         </div>
                         <div style={hinfo}>
                             <h6 style={zostel}>ZOSTEL</h6>
                             <h2>{e.name}</h2>
                             <p style={descStyle}>{e.desc.rec}</p>
-                           <div style={price}><h2>Starting from {e.id}</h2> <button>View &#8594;</button></div> 
+                           <div style={price}><h2>Starting from {e.location.min}</h2> <button onMouseEnter={hoveron} onMouseLeave={hoveroff} style={viewStyle}>View &#8594;</button></div> 
                         </div>
                     </div>
                 </>

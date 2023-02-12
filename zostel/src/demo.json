@@ -777,7 +777,7 @@
             "aminities":[{"icon":"icon1","p":"p1"}],
             "policies":{"property":[],"cancellation":[]},
             "location":{"address":"","contact":"","gMap":"","directions":[],
-            "min":["₹749"],
+            "min":"₹749",
             "rooms":[301]}
         },
         {
@@ -796,7 +796,7 @@
             "aminities":[{"icon":"icon1","p":"p1"}],
             "policies":{"property":[],"cancellation":[]},
             "location":{"address":"","contact":"","gMap":"","directions":[],
-            "min":["₹749"],
+            "min":"₹749",
             "rooms":[301]}
         },
         {
@@ -815,7 +815,7 @@
             "aminities":[{"icon":"icon1","p":"p1"}],
             "policies":{"property":[],"cancellation":[]},
             "location":{"address":"","contact":"","gMap":"","directions":[],
-            "min":["₹599"],
+            "min":"₹599",
             "rooms":[301]}
         },
         {
@@ -834,7 +834,7 @@
             "aminities":[{"icon":"icon1","p":"p1"}],
             "policies":{"property":[],"cancellation":[]},
             "location":{"address":"","contact":"","gMap":"","directions":[],
-            "min":["₹749"],
+            "min":"₹749",
             "rooms":[301]}
         },
         {
@@ -853,7 +853,7 @@
             "aminities":[{"icon":"icon1","p":"p1"}],
             "policies":{"property":[],"cancellation":[]},
             "location":{"address":"","contact":"","gMap":"","directions":[],
-            "min":["₹2749"],
+            "min":"₹2749",
             "rooms":[301]}
         },
         {
@@ -872,7 +872,7 @@
             "aminities":[{"icon":"icon1","p":"p1"}],
             "policies":{"property":[],"cancellation":[]},
             "location":{"address":"","contact":"","gMap":"","directions":[],
-            "min":["₹599"],
+            "min":"₹599",
             "rooms":[301]}
         },
         {
@@ -891,7 +891,7 @@
             "aminities":[{"icon":"icon1","p":"p1"}],
             "policies":{"property":[],"cancellation":[]},
             "location":{"address":"","contact":"","gMap":"","directions":[],
-            "min":["₹749"],
+            "min":"₹749",
             "rooms":[301]}
         },{
             "id":1061,
@@ -909,7 +909,7 @@
             "aminities":[{"icon":"icon1","p":"p1"}],
             "policies":{"property":[],"cancellation":[]},
             "location":{"address":"","contact":"","gMap":"","directions":[],
-            "min":["₹599"],
+            "min":"₹599",
             "rooms":[301]}
         },
         {
@@ -928,7 +928,7 @@
             "aminities":[{"icon":"icon1","p":"p1"}],
             "policies":{"property":[],"cancellation":[]},
             "location":{"address":"","contact":"","gMap":"","directions":[],
-            "min":["₹2599"],
+            "min":"₹2599",
             "rooms":[301]}
         },
         {
@@ -947,7 +947,7 @@
             "aminities":[{"icon":"icon1","p":"p1"}],
             "policies":{"property":[],"cancellation":[]},
             "location":{"address":"","contact":"","gMap":"","directions":[],
-            "min":["₹749"],
+            "min":"₹749",
             "rooms":[301]}
         },
         {
@@ -966,7 +966,7 @@
             "aminities":[{"icon":"icon1","p":"p1"}],
             "policies":{"property":[],"cancellation":[]},
             "location":{"address":"","contact":"","gMap":"","directions":[],
-            "min":["₹2599"],
+            "min":"₹2599",
             "rooms":[301]}
         },
         {
@@ -985,7 +985,7 @@
             "aminities":[{"icon":"icon1","p":"p1"}],
             "policies":{"property":[],"cancellation":[]},
             "location":{"address":"","contact":"","gMap":"","directions":[],
-            "min":["₹749"],
+            "min":"₹749",
             "rooms":[301]}
         },
         {
@@ -1004,7 +1004,7 @@
             "aminities":[{"icon":"icon1","p":"p1"}],
             "policies":{"property":[],"cancellation":[]},
             "location":{"address":"","contact":"","gMap":"","directions":[],
-            "min":["₹599"],
+            "min":"₹599",
             "rooms":[301]}
         },
         {
@@ -1023,7 +1023,7 @@
             "aminities":[{"icon":"icon1","p":"p1"}],
             "policies":{"property":[],"cancellation":[]},
             "location":{"address":"","contact":"","gMap":"","directions":[],
-            "min":["₹599"],
+            "min":"₹599",
             "rooms":[301]}
         },
         {
@@ -1042,7 +1042,7 @@
             "aminities":[{"icon":"icon1","p":"p1"}],
             "policies":{"property":[],"cancellation":[]},
             "location":{"address":"","contact":"","gMap":"","directions":[],
-            "min":["₹2599"],
+            "min":"₹2599",
             "rooms":[301]}
         },{
             "id":1151,
@@ -1060,7 +1060,7 @@
             "aminities":[{"icon":"icon1","p":"p1"}],
             "policies":{"property":[],"cancellation":[]},
             "location":{"address":"","contact":"","gMap":"","directions":[],
-            "min":["₹749"],
+            "min":"₹749",
             "rooms":[301]}
         },
         {
@@ -1079,7 +1079,7 @@
             "aminities":[{"icon":"icon1","p":"p1"}],
             "policies":{"property":[],"cancellation":[]},
             "location":{"address":"","contact":"","gMap":"","directions":[],
-            "min":["₹599"],
+            "min":"₹599",
             "rooms":[301]}
         },
         {
@@ -1098,7 +1098,7 @@
             "aminities":[{"icon":"icon1","p":"p1"}],
             "policies":{"property":[],"cancellation":[]},
             "location":{"address":"","contact":"","gMap":"","directions":[],
-            "min":["₹749"],
+            "min":"₹749",
             "rooms":[301]}
         },
         {
@@ -1117,7 +1117,7 @@
             "aminities":[{"icon":"icon1","p":"p1"}],
             "policies":{"property":[],"cancellation":[]},
             "location":{"address":"","contact":"","gMap":"","directions":[],
-            "min":["₹749"],
+            "min":"₹749",
             "rooms":[301]}
         },
         {
@@ -1136,7 +1136,7 @@
             "aminities":[{"icon":"icon1","p":"p1"}],
             "policies":{"property":[],"cancellation":[]},
             "location":{"address":"","contact":"","gMap":"","directions":[],
-            "min":["₹749"],
+            "min":"₹749",
             "rooms":[301]}
         },
         {
@@ -1155,7 +1155,7 @@
             "aminities":[{"icon":"icon1","p":"p1"}],
             "policies":{"property":[],"cancellation":[]},
             "location":{"address":"","contact":"","gMap":"","directions":[],
-            "min":["₹499"],
+            "min":"₹499",
             "rooms":[301]}
         },
         {
@@ -1174,7 +1174,7 @@
             "aminities":[{"icon":"icon1","p":"p1"}],
             "policies":{"property":[],"cancellation":[]},
             "location":{"address":"","contact":"","gMap":"","directions":[],
-            "min":["₹699"],
+            "min":"₹699",
             "rooms":[301]}
         },
         {
@@ -1193,7 +1193,7 @@
             "aminities":[{"icon":"icon1","p":"p1"}],
             "policies":{"property":[],"cancellation":[]},
             "location":{"address":"","contact":"","gMap":"","directions":[],
-            "min":["₹399"],
+            "min":"₹399",
             "rooms":[301]}
         },
         {
@@ -1212,7 +1212,7 @@
             "aminities":[{"icon":"icon1","p":"p1"}],
             "policies":{"property":[],"cancellation":[]},
             "location":{"address":"","contact":"","gMap":"","directions":[],
-            "min":["₹749"],
+            "min":"₹749",
             "rooms":[301]}
         },
         {
@@ -1231,7 +1231,7 @@
             "aminities":[{"icon":"icon1","p":"p1"}],
             "policies":{"property":[],"cancellation":[]},
             "location":{"address":"","contact":"","gMap":"","directions":[],
-            "min":["₹749"],
+            "min":"₹749",
             "rooms":[301]}
         },
         {
@@ -1250,7 +1250,7 @@
             "aminities":[{"icon":"icon1","p":"p1"}],
             "policies":{"property":[],"cancellation":[]},
             "location":{"address":"","contact":"","gMap":"","directions":[],
-            "min":["₹749"],
+            "min":"₹749",
             "rooms":[301]}
         },
         {
@@ -1269,7 +1269,7 @@
             "aminities":[{"icon":"icon1","p":"p1"}],
             "policies":{"property":[],"cancellation":[]},
             "location":{"address":"","contact":"","gMap":"","directions":[],
-            "min":["₹749"],
+            "min":"₹749",
             "rooms":[301]}
         },
         {
@@ -1288,7 +1288,7 @@
             "aminities":[{"icon":"icon1","p":"p1"}],
             "policies":{"property":[],"cancellation":[]},
             "location":{"address":"","contact":"","gMap":"","directions":[],
-            "min":["₹599"],
+            "min":"₹599",
             "rooms":[301]}
         },
         {
@@ -1307,7 +1307,7 @@
             "aminities":[{"icon":"icon1","p":"p1"}],
             "policies":{"property":[],"cancellation":[]},
             "location":{"address":"","contact":"","gMap":"","directions":[],
-            "min":["₹749"],
+            "min":"₹749",
             "rooms":[301]}
         },
         {
@@ -1326,7 +1326,7 @@
             "aminities":[{"icon":"icon1","p":"p1"}],
             "policies":{"property":[],"cancellation":[]},
             "location":{"address":"","contact":"","gMap":"","directions":[],
-            "min":["₹1599"],
+            "min":"₹1599",
             "rooms":[301]}
         },
         {
@@ -1345,7 +1345,7 @@
             "aminities":[{"icon":"icon1","p":"p1"}],
             "policies":{"property":[],"cancellation":[]},
             "location":{"address":"","contact":"","gMap":"","directions":[],
-            "min":["₹599"],
+            "min":"₹599",
             "rooms":[301]}
         },
         {
@@ -1364,7 +1364,7 @@
             "aminities":[{"icon":"icon1","p":"p1"}],
             "policies":{"property":[],"cancellation":[]},
             "location":{"address":"","contact":"","gMap":"","directions":[],
-            "min":["₹749"],
+            "min":"₹749",
             "rooms":[301]}
         },
         {
