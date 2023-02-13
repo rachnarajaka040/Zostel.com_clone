@@ -2,8 +2,12 @@ import Location from '../Components/destination/Location'
 import About from '../Components/destination/About'
 import Hotels from '../Components/destination/Hotels'
 import Map from '../Components/destination/Map'
-function Destination({id,name,hotels,desc,img})
+import { useParams } from 'react-router-dom';
+import data from '../demo.json'
+function Destination()
 {
+    const {id}=useParams();
+    {}    
     return(<>
             <Location name={name} img={img}/>
             <About name={name} desc={desc}/>

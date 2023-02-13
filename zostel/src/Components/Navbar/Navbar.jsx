@@ -27,7 +27,7 @@ export default function Navbar() {
           <Link to="/"><img className={ns.logo} src={logo} alt="logo" style={{ width: "80%" }} /></Link>
         </div>
         <div className={ns.menu}>
-          <Link to={"/destinations"} className={ns.menuText}>Destinations</Link>
+          <Link to={"/Destinations"} className={ns.menuText}>Destinations</Link>
           <p className={ns.menuText}>Zostel <span onClick={() => setMenuhover(
             {
               zostel: !menuhover.zostel,

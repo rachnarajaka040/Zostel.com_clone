@@ -1,7 +1,7 @@
 // Explore Destinations// Explore Destinations
 import data from "../../demo.json";
 import { useState } from "react";
-
+import { Link } from "react-router-dom";
 
 
 
@@ -19,6 +19,7 @@ function ExpDestination(){
             {
                 data.Destinations.map((e) => {
                     return (
+                        <Link to={`/Destination/${e.id}`}>
                         <div style={{
                             backgroundImage: `url(${e.img})`, 
                             width: "300px",
@@ -31,7 +32,9 @@ function ExpDestination(){
                             }}>
                             <h3 style={{color:"white", position:"relative", top:"90%"}}>{e.name}</h3>
                         </div>
-                        // <img src={e.img}></img>
+                      
+                        {/* // <img src={e.img}></img> */}
+                        </Link>
                     )
                 })
             }

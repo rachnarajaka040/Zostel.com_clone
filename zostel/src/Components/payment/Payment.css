@@ -1,0 +1,133 @@
+#leftBoxes > div{
+    border: 0.5px solid rgba(162, 162, 242, 0.734);
+    border-radius: 8px;
+    padding: 5px;
+    text-align: start;
+}
+#leftBoxes :nth-child(1){
+    border-color: white;
+    text-align: start;
+}
+#leftBoxes > :nth-child(2)  :nth-child(2){
+     gap: 100px;
+}
+#leftBoxes > div :nth-child(1){
+    background-color: #fafeff;
+    font-size: 18px;
+    text-align: start;
+    line-height: 24px;
+    color: #0a181d;
+    font-family: 'CircularStd, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif';
+}
+#summary{
+    text-align: start;
+    padding: 10px;
+    border: 0.5px solid rgba(162, 162, 242, 0.734);
+    border-radius: 8px;
+    height: 45%;
+    background-color: #fafeff;
+    font-family: 'CircularStd, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif';
+    margin-top: 4.5%;
+    position: fixed;
+    margin-left: 60%;
+    justify-content: space-around;
+}
+#summary > :nth-child(4) > div{
+     padding: 5px;
+}
+#checkbox{
+    display: flex;
+    
+}
+#checkbox > p{
+    font-size: small;
+    margin-left: 4%;
+}
+#mainDIv{
+    margin: 100px;
+}
+#mainDiv{
+    gap: 25px;
+    margin: 2% 8% 2% 8%;
+}
+#reserve{
+    text-align: center;
+    padding: 20px;
+    color: #fafeff;
+    font-size: 120%;
+    font-family: 'CircularStd, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif';
+    background-color: gray;
+    border-radius: 8px;
+}
+#costumerDetails > div{
+    margin: 2%;
+    /* background-color: #0a181d; */
+}
+#nameInput > :nth-child(2){
+   margin-left: 7%;
+}
+#nameInput > input{
+    margin: 5px;
+    height: 40px;
+    width: 20%;
+    border-radius: 7px;
+    text-align: center;
+    border-color:#fafeff
+}
+#genderInput select {
+   margin-left: 6%;
+   height: 50px;
+    width: 87%;
+    border-radius: 7px;
+    text-align: start;
+    /* border-color:#fafeff */
+}
+#emailInput input {
+    margin-left: 7%;
+    height: 45px;
+     width: 87%;
+     border-radius: 7px;
+     text-align: start;
+     border-color:#fafeff
+ }
+ #numberInput input{
+    margin-left: 5%;
+    height: 45px;
+     width: 87%;
+     border-radius: 7px;
+     text-align: start;
+     border-color:#fafeff
+ }
+ #adressInput input{
+    margin-left: 5%;
+    height: 150px;
+     width: 87%;
+     border-radius: 7px;
+     text-align: start;
+     border-color:#fafeff
+ }
+ #property > div{
+    padding: 1%;
+ }
+ #cancellationPolicy > div{
+    padding: 1%;
+ }
+ #cancellationPolicy > :nth-child(1){
+    font-weight: 500;
+ }
+ #guestInformation > :nth-child(1){
+    padding: 1%;
+    margin-left: 1%;
+    border-bottom: 1px #fafeff;
+ }
+ #booking{
+    display: flex;
+    
+ }
+ #booking > h1{
+    margin-left: 1.7%;
+    margin-bottom: 1%;
+    line-height: 45px;
+ }
+
+
