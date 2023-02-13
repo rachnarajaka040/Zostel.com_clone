@@ -7,11 +7,20 @@ import data from '../demo.json'
 function Destination()
 {
     const {id}=useParams();
-    {}    
+    console.log(id)
+    console.log(data.Destinations)
+    let ele =null;
+    data.Destinations.map(e=>{
+        if(e.id==id)
+        {
+            ele=e;
+           
+        }
+    })
     return(<>
-            <Location name={name} img={img}/>
-            <About name={name} desc={desc}/>
-            <Hotels name={name} hotels={hotels}/>
+            <Location name={ele.name} img={ele.img}/>
+            <About name={ele.name} desc={ele.desc}/>
+            <Hotels name={ele.name} hotels={ele.hotels}/>
             <Map/>
 
     </>)

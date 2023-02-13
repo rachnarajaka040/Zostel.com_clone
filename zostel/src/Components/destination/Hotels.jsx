@@ -1,17 +1,12 @@
 import data from '../../demo.json'
 import { useState } from 'react'
+import { useNavigate } from 'react-router-dom';
 function Hotels({name,hotels})
 {
+    let hotel=useNavigate()
     let[hover,Sethover]=useState(false);
 
-    function hoveron()
-    {
-        Sethover(true);
-    }
-    function hoveroff()
-    {
-        Sethover(false)
-    }
+
 
     // Styles
     const stayStyles={         
@@ -102,7 +97,7 @@ function Hotels({name,hotels})
                             <h6 style={zostel}>ZOSTEL</h6>
                             <h2>{e.name}</h2>
                             <p style={descStyle}>{e.desc.rec}</p>
-                           <div style={price}><h2>Starting from {e.location.min}</h2> <button onMouseEnter={hoveron} onMouseLeave={hoveroff} style={viewStyle}>View &#8594;</button></div> 
+                           <div style={price}><h2>Starting from {e.location.min}</h2> <button onClick={()=>{hotel(`/Hotel/${e.id}`)}}  style={viewStyle}>View &#8594;</button></div> 
                         </div>
                     </div>
                 </>

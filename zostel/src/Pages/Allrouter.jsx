@@ -12,7 +12,7 @@ function Allrouter(){
             <Routes>
                 <Route path='/' element={<HomePage/>} ></Route>
                 <Route path='/Destination/:id' element={<Destination/>} ></Route>
-                <Route path='/Hotel' element={<Hotel/>} ></Route>
+                <Route path='/Hotel/:cid' element={<Hotel/>} ></Route>
                 <Route path='/Destinations' element={<Destinations/>} ></Route>
                 {/* <Route path='/' element={<HomePage/>} ></Route> */}
             </Routes>
