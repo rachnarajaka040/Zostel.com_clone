@@ -806,7 +806,7 @@
             ]},
             "location":{"address":"","contact":"","gMap":"","directions":[],
             "min":"₹749",
-            "rooms":[301]}
+            "rooms":[301,301]}
         },
         {
             "id":1021,
@@ -853,7 +853,7 @@
 ]},
             "location":{"address":"","contact":"","gMap":"","directions":[],
             "min":"₹749",
-            "rooms":[301]}
+            "rooms":[301,301]}
         },
         {
             "id":1031,
@@ -899,7 +899,7 @@
     ]},
             "location":{"address":"","contact":"","gMap":"","directions":[],
             "min":"₹599",
-            "rooms":[301]}
+            "rooms":[301,301,301]}
         },
         {
             "id":1032,
@@ -945,7 +945,7 @@
     ]},
             "location":{"address":"","contact":"","gMap":"","directions":[],
             "min":"₹749",
-            "rooms":[301]}
+            "rooms":[301,301,301]}
         },
         {
             "id":1011,
