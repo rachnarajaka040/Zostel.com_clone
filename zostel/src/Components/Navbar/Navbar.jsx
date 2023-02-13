@@ -24,7 +24,7 @@ export default function Navbar() {
     <>
       {width > 750 ? <nav className={ns.navbar}>
         <div>
-          <Link to="/"><img className={ns.logo} src={logo} alt="logo" style={{ width: "80%" }} /></Link>
+          <Link to="/"><img className={ns.logo} src={logo} alt="logo" style={{ width: "80%" ,zIndex:"-1",position:"relative" }} /></Link>
         </div>
         <div className={ns.menu}>
           <Link to={"/Destinations"} className={ns.menuText}>Destinations</Link>

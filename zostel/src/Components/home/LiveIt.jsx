@@ -18,7 +18,7 @@ function Slider() {
         <div>
             <div style={{ color: "white", backgroundImage: `url(${imgs[count]})`, height: "600px" }}>
                 <h1 style={{ fontSize: "70px", position: "relative", top: "11%" }}>Live it. Now</h1>
-                <div style={{ width: "80%", height: "200px", backgroundColor: "white", position: "relative", left: "10%", top: "5%", borderRadius: "10px" }}>
+                <div style={{display:"flex",flexDirection:"column", justifyContent:"space-evenly", width: "80%", height: "200px", backgroundColor: "white", position: "relative", left: "10%", top: "20%", borderRadius: "10px" }}>
                     <div style={{ display: "flex" }}>
                         <a style={{ textDecoration: "none", color: "#6f7988", margin: "auto" }} href="#"><h3>DESTINATIONS</h3></a>
                         <a style={{ textDecoration: "none", color: "#6f7988", margin: "auto" }} href="#"><h3>ZOSTEL</h3></a>
@@ -42,7 +42,7 @@ function Slider() {
                             <input style={{outline:"none", width: "190px", border: "none" }} placeholder="dd-mm-yyyy" type="date" name="" id="" />
                             <hr />
                         </div>
-                        <div><button style={{backgroundColor:"#f15824", color:"white", border:"none", width:"300px", height:"50px", borderRadius:"10px", position:"relative", top:"35px", fontSize:"16px", fontWeight:"500" }}>Book Now</button></div>
+                        <div><button style={{backgroundColor:"#f15824", color:"white", border:"none", width:"300px", height:"50px", borderRadius:"10px", position:"relative", top:"5px", fontSize:"16px", fontWeight:"500" }}>Book Now</button></div>
                     </div>
                 </div>
             </div>

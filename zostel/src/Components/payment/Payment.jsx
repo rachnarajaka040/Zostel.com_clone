@@ -1,8 +1,11 @@
 import React from "react";
 import './Payment.css';
-
+import { useNavigate } from "react-router-dom";
+import { useParams } from "react-router-dom";
 const Payment = () => {
     
+    let home=useNavigate();
+    let {total,price}=useParams();
     return(
         <div>
             <div id="navBar">
@@ -123,16 +126,16 @@ For any other queries, please reach out to us at reservations@zostel.com.</div>
     <div>
         <div id="picture"></div>
         <div id="roomDetails"></div>
-        <div id="priceOfRoom"></div>
+        <div id="priceOfRoom">{price}</div>
     </div>
     <div>
         <div>
             <h3>Tax</h3>
-            <h3 id="tax"></h3>
+            <h3 id="tax">90</h3>
         </div>
         <div>
             <h3>Total (tax incl.)</h3>
-            <h3 id="total"></h3>
+            <h3 id="total">{(total*1)+90}</h3>
         </div>
         <div>
             <h3>Payable Now</h3>
@@ -144,7 +147,9 @@ For any other queries, please reach out to us at reservations@zostel.com.</div>
     <p>I acknowledge and accept the terms and conditions mentioned in the Property Policy & Cancellation Policy. </p>
     </div>
     <div>
-    <div id="reserve">Reserve</div>
+    <div id="reserve" onClick={()=>{
+        alert(`Booking successful AMT due:${(total*1)+90}`)
+        home(`/`)}}>Reserve</div>
     <div id="invalidInput"></div>
     </div>
   </div>

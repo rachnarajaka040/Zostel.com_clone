@@ -131,3 +131,8 @@
  }
 
 
+#tax{
+    display: flex;
+
+    justify-content: space-between;
+}

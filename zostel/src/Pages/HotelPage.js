@@ -22,10 +22,10 @@ function Hotel()
     console.log(elem)
     return(<>
 
-    {/* <HotelPic img={elem.img}/>
-    <Description desc={elem.desc} aminities={elem.aminities} name={elem.name}/> */}
+    <HotelPic img={elem.img}/>
+    <Description desc={elem.desc} aminities={elem.aminities} name={elem.name}/>
     <Room rooms={elem.location.rooms}/>
-    {/* <Policies  policies={elem.policies}/> */}
+    <Policies  policies={elem.policies}/>
     </>)
 }
 export default Hotel;

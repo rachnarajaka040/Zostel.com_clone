@@ -400,16 +400,19 @@
     width: 95%;
     justify-content: space-between;
 }
-.selroom
+.roombottom button 
 {
     color: white;
     background-color: #f15824;
-    padding: 5px 15px;
+    padding: 5px 25px;
+    border: none;
+    border-radius: 3px;
 
 }
-.selroom
+.roombottom button:hover
 {
-    
+    color: #f15824;
+    background-color: white;
 }
 
 
@@ -428,4 +431,23 @@
 
     position: sticky;
     top: 0;
+}
+.proceed
+{
+    margin-top: 40px;
+    margin-left: 20px;
+    font-size: large;
+    font-weight: 600;
+    border: none;
+    padding:10px 20px;
+    background-color: #f15824;
+    color: aliceblue;
+}
+.proceed:hover
+{
+    border: 2px solid #f15824;
+    padding:10px 30px;
+    background-color: #ffffff;
+    color:#f15824;
+
 }
