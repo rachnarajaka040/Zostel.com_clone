@@ -83,10 +83,14 @@
     visibility: visible;
     background-color: black;
     top:0;
+    left: 0;
+    z-index: 5;
 }
 .hidepics{
     visibility: hidden;
     position: fixed;
+    top: 0;
+
 }
 .picnav
 {
@@ -264,21 +268,23 @@
     justify-content: space-between;
     text-align: left;
     margin: 0px 11%;
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 .rooms
 {
     display: flex;
     flex-direction: column;
-    background-color: blue;
+    /* background-color: blue; */
     width: 85%;
 }
 .booknav
 {
     display: flex;
+    align-items: baseline;
     justify-content: space-between;
     position: sticky;
-    background-color: burlywood;
+    width: 99%;
+    background-color:white;
     top: 0;
 }
 .bookstay
@@ -298,6 +304,100 @@
     font-size: large;
     font-weight: bold;
 }
+.date{
+    font-size: large;
+    padding: 0px 3px 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.roomcontainer
+{
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+
+}
+.wholeroom
+{
+    display: flex;
+    flex-direction:column ;
+    margin: 10px 2px;
+    border-radius: 12px;
+    /* background-color: chartreuse; */
+}
+.room
+{
+    display: flex;
+    width: 95%;
+    
+}
+.roomdetails
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 200px;
+}
+.roomndp
+{
+
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.roomsize 
+{
+    display: flex;
+    align-items: center;
+
+}
+.roomaminities
+{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+
+}
+/* .roomaminiti
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+.roomaminiti span
+{
+    position: relative;
+    background-color: black;
+    color: aliceblue;
+    font-size: small;
+    padding: 5px 10px;
+    font-weight: 600;
+    border-radius: 5px;
+
+    visibility: hidden;
+}
+.roomaminiti:hover span
+{
+    visibility: visible;
+}
+
+
+.roompic
+{
+    border: none;
+}
+.roompic:hover
+{
+    opacity: 0.7;
+    cursor: zoom-in;
+}
+
+
+
+
+
+
 
 
 
@@ -308,7 +408,8 @@
     display: flex;
     min-width:320px;
     flex-direction: column;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
+
     position: sticky;
     top: 0;
 }

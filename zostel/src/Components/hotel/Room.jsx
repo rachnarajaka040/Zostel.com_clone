@@ -1,7 +1,50 @@
 import data from '../../demo.json'
+import { useState } from 'react';
 function Room({rooms})
 {
-    console.log(rooms)
+    let[showimg,setShowimg]=useState(false)
+   let[currentpic,setCurrentpic]=useState(0);
+
+   const opengallery=()=>
+   {
+        setShowimg(true)
+   }
+   const closegallery=()=>
+   {
+        setShowimg(false)
+   }
+
+   function selectPic(ind)
+   {
+        setCurrentpic(ind)
+
+   }
+   const nextpic=()=>
+   {
+        if(currentpic==4)
+        {
+            setCurrentpic(0)
+        }
+        else
+        {
+            setCurrentpic(currentpic+1);
+        }
+        
+   }
+   const prepic=()=>
+   {
+        if(currentpic!=0)
+        {
+        setCurrentpic(currentpic-1);
+        }
+        else
+        {
+            setCurrentpic(6);
+        }
+   
+
+   }
+   
     return <div className='booking'>
         <div className='rooms'>
             <div className='booknav'>
@@ -11,25 +54,26 @@ function Room({rooms})
                 </div>
                 <div className='mnddate'>
                     <span className='inr'>INR</span>
-                    <span className='date'>Tue 14 feb, 2023 &nbsp; &#2192; &nbsp; Mon 20 feb,2023 </span>
+                    <span className='date'>Tue 14 feb, 2023 &#8594; Mon 20 feb,2023 </span>
                 </div>
             </div>
             <div className='roomcontainer'>
-                {data.Rooms.map(e=>
+                {data.Rooms.map((e,ind)=>
                     {
                         if(rooms.includes(e.id))
                         {
                             return <>
+                            <div className='wholeroom'>
                             <div className='room'>
-                            <div className='roompic'>
-
-                            </div>
+                            <button className='roompic' onClick={opengallery}>
+                                    <img src={e.img[0]} width="200px" height="180px" alt="" />
+                            </button>
                             <div className='roomdetails'>
-                                <div className='roomnndp'>
+                                <div className='roomndp'>
                                     <h4>{e.name}</h4>
                                     <h3>{e.price}</h3>
                                 </div>
-                                <span className='roomsize'><i className='material-icons'>person</i> x {e.size}</span>
+                                <div className='roomsize'><i className='material-icons'>person</i><p>X {e.size}</p> </div>
                                 <p>{e.desc}</p>
                                 <div className='roomaminities'>
                                     {e.aminities.map(a=>{
@@ -46,7 +90,31 @@ function Room({rooms})
                                     <button className='selroom'>select room</button>
                                 </div>
                             </div>
+                            <div className='avalcal'>
+
                             </div>
+                            </div>
+                           
+                            </div>
+                            
+                            <div className={showimg ? 'viewpics':'hidepics'} >
+                            <span className='galtop'>
+                    <span className='pageno'>{currentpic+1} of 7</span>
+                    <button className='xgalbut' onClick={closegallery}>X</button>
+                    </span>
+                <div className='gallerynav'>
+                <button className='fwdbwd' onClick={prepic}>&#x21b6;</button>
+                <div className='cphoto' style={{"backgroundImage":`url(${e.img[currentpic]})`}}></div>
+                <button className='fwdbwd'onClick={nextpic}>&#x21b7;</button>
+                </div>
+                <div className='picnav'>
+                    {e.img.map((i,ind)=>
+                        {
+                    return <button onClick={()=>{selectPic(ind)}} className='picselector'><img height="60px" width="120px" src={i} alt="img" />
+                    </button>
+                })}
+        </div>
+    </div>
                             </>
                         }
                     })}
