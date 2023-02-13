@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
 .parent
 {
     display: flex;
@@ -150,17 +153,19 @@
 /* About Hotel */
 .abouthotel
 {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 10px 11%;
-    min-width: 300px;
-    min-height: 700px;
-    /* background-color: aqua; */
+
+    display: grid;
+    margin: 10px 11% 60px ;
+    min-width: 400px;
+    min-height: 400px;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 6px;
+
+
 }
 .maxdescription
 {
     display: flex;
-    width: 50%;
     flex-direction: column;
     align-items: flex-start;
     text-align:justify;
@@ -168,7 +173,6 @@
 .mindescription
 {
     display: flex;
-    width: 50%;
     flex-direction: column;
     align-items: flex-start;
     text-align:justify;
@@ -177,8 +181,7 @@
 }
 .hotelname
 {
-    color:#f15824;
-    /* font-size: larger; */
+    color: #f15824;
     font-weight: bolder;
 }
 .hoteldesc
@@ -200,4 +203,112 @@
 {
     color: rgb(70, 69, 69);
     padding: 10px 4px 5px;
+}
+/* Aminities */
+.aminities
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+.aminitie
+{
+    
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 12px;
+    column-gap: 10px;
+    margin-top: 30px;
+}
+.amini
+{
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(62, 62, 62);
+    display: flex;
+    width: auto;
+    /* background-color: #f15824; */
+    align-items: center;
+}
+.amini p
+{
+    padding-left: 3px;
+}
+.material_icons
+{
+    font-size: medium;
+}
+/* Policies */
+.policies
+{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 11% 0px;
+    text-align: justify;
+    
+}
+.policies h2
+{
+    margin: 20px 0px 10px -5px;
+}
+.policies p
+{
+    margin-top: 30px;
+}
+
+/* Room Styles */
+.booking
+{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    margin: 0px 11%;
+    background-color: aqua;
+}
+.rooms
+{
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    width: 85%;
+}
+.booknav
+{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    background-color: burlywood;
+    top: 0;
+}
+.bookstay
+{
+    width: 60%;
+
+}
+.mnddate
+{
+    display: flex;
+    justify-content: space-between;
+
+    width: 40%;
+}
+.inr{
+    color: #f15824;
+    font-size: large;
+    font-weight: bold;
+}
+
+
+
+
+/* summary */
+.summary
+{
+    display: flex;
+    min-width:320px;
+    flex-direction: column;
+    background-color: blueviolet;
+    position: sticky;
+    top: 0;
 }

@@ -1,4 +1,4 @@
-import './Hotel.css'
+// import './Hotel.css'
 import { useState } from 'react'
 function Description({name,desc,aminities})
 {
@@ -23,7 +23,12 @@ function Description({name,desc,aminities})
         <button  className='moreinfobut' onClick={handleshow}>{show ? "show less" :"show more" }</button>
         </div>
         <div className='aminities'>
-            
+            <h2>Aminities</h2>
+            <div className='aminitie'>
+                {aminities.map(e=>{
+                    return <div className='amini'><i className='material-icons'>{e.icon}</i><p>{e.p}</p></div>
+                })}
+            </div>
         </div>
     </div>
     </>

@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import './Hotel.css'
 function HotelPic({img})
 {
    let[showimg,setShowimg]=useState(false)
