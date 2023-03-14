@@ -1,1 +1,0 @@
-// Common for HomePage, Destinationpage
