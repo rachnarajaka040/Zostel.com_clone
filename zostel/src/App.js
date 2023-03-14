@@ -7,7 +7,7 @@ import Allrouter from './Pages/Allrouter';
 function App() {
   return (
     <div className="App">
-    
+
         <Navbar />
         <Allrouter/>
         <Footer />
@@ -17,3 +17,4 @@ function App() {
 }
 
 export default App;
+// changes
